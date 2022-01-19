@@ -7,14 +7,11 @@ def operation(num1,num2,num3):
     else:
         print("num3 is grt");
 
+num1, num2, num3 = input("Enter 3 values: ").split();
 
-
-
-
-num1=input("1 num : ");
-num2=input("2 num : ");
-num3=input("3 num : ");
-
+# num1=input("1 num : ");
+# num2=input("2 num : ");
+# num3=input("3 num : ");
 
 if __name__=="__main__":
     operation(num1,num2,num3);
